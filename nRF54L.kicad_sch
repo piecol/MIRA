@@ -9941,6 +9941,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C206424"
+			(at 190.5 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81469525-6ecf-4370-bc6e-b48a85e4f9a8")
 		)
@@ -10097,6 +10108,17 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C206424"
+			(at 203.2 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
