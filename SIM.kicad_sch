@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "MIRA")
-		(date "2026-10-23")
+		(date "2026-10-25")
 		(rev "1.0")
 		(company "Pierluigi Colangeli")
 	)
@@ -1326,7 +1326,7 @@
 		(at 18.034 18.796 0)
 		(effects
 			(font
-				(face "Avenir Black")
+				(face "KiCad Font")
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
@@ -2088,6 +2088,17 @@
 				(justify left top)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 43.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "b92e1087-98af-404f-ad88-2d7761ff7c80")
 		)
@@ -2188,6 +2199,28 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 109.22 30.4862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 106.68 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2586,6 +2619,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C2977286"
+			(at 125.984 36.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 121.92 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C5"
 			(uuid "30fa8268-3ddf-4554-9708-700d4b95e6d3")
 		)
@@ -2850,6 +2905,28 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C2869050"
+			(at 82.55 41.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 82.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

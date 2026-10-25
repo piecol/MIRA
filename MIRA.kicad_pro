@@ -90,10 +90,6 @@
           ""
         ],
         [
-          "clearance|127088499|55375000|065f2528-e441-4dab-be00-398e6bdb2d29|76df9bf4-e213-4a8f-a224-94a13f0049fc",
-          ""
-        ],
-        [
           "clearance|127150000|50384800|a8dbc1a0-8a63-410b-a79c-6c82739245c8|29801878-8ee9-408f-b5db-0ef984c0d070",
           ""
         ],
@@ -106,51 +102,11 @@
           ""
         ],
         [
-          "clearance|157612500|53320000|63189fde-8477-4bf3-a2eb-49d1ac147484|2e8fda36-a79e-4e4c-b7fe-0eaf8f050a2b",
-          ""
-        ],
-        [
-          "clearance|158642500|56539970|8999f309-6194-4b45-a741-2ffb085ba643|5aab7c67-83aa-4ccb-9f57-6a31721efe2c",
-          ""
-        ],
-        [
-          "clearance|158642500|57039970|5aab7c67-83aa-4ccb-9f57-6a31721efe2c|d0838e69-27e8-4300-8672-79b685edeb7d",
-          ""
-        ],
-        [
           "clearance|162257500|50494999|748fe491-f2b2-4bb1-8b15-bbf37e0a62e0|36cc98e6-2e64-436d-b356-af3c9fc12dc9",
           ""
         ],
         [
           "clearance|163557500|52895001|ec6444b3-3f58-49b8-8b45-bbb229f3dda0|b9a5c76f-7c4a-4543-b0e5-4c4aa1f34810",
-          ""
-        ],
-        [
-          "solder_mask_bridge|162067433|47258271|31adfbee-09b2-46bb-8e94-caa0ff4719ec|52c6df5b-b983-4245-9d52-c84a7047ddfe",
-          ""
-        ],
-        [
-          "solder_mask_bridge|162660253|47395247|b746d3c2-58f7-4b25-9112-c90f07b2526d|31adfbee-09b2-46bb-8e94-caa0ff4719ec",
-          ""
-        ],
-        [
-          "solder_mask_bridge|162944180|45883679|2e5aae65-a196-4e5c-a4f4-03721d6e7928|a1a39a4e-4d95-41bd-b544-758c64d0e882",
-          ""
-        ],
-        [
-          "solder_mask_bridge|164746966|47615453|d8f8da0f-4c6f-4205-bf3b-a8056d1bbc48|31adfbee-09b2-46bb-8e94-caa0ff4719ec",
-          ""
-        ],
-        [
-          "solder_mask_bridge|165232461|43940190|31adfbee-09b2-46bb-8e94-caa0ff4719ec|2e5aae65-a196-4e5c-a4f4-03721d6e7928",
-          ""
-        ],
-        [
-          "solder_mask_bridge|165400519|47306708|7bc7f9b4-531b-41d0-b80b-9a4136c009ca|31adfbee-09b2-46bb-8e94-caa0ff4719ec",
-          ""
-        ],
-        [
-          "solder_mask_bridge|165791889|46945028|31adfbee-09b2-46bb-8e94-caa0ff4719ec|a1a39a4e-4d95-41bd-b544-758c64d0e882",
           ""
         ]
       ],
@@ -744,7 +700,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "nextpcb/gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -790,6 +746,12 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
@@ -799,7 +761,7 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -835,12 +797,6 @@
           "group_by": false,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
           "show": false
         },
         {
@@ -968,7 +924,7 @@
         "uuid": "b7bd7dda-cfc5-4926-97b2-55f6d2f4eec8"
       }
     ],
-    "used_designators": "JP9",
+    "used_designators": "#SYM1,JP9",
     "variants": []
   },
   "sheets": [
